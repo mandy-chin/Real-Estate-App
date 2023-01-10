@@ -1,0 +1,17 @@
+#indexImg {
+  max-width: 100%;
+}
+
+img {
+  width: 100%;
+  max-height: auto;
+}
+
+#Title {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 45px;
+  color:rgb(98, 96, 96)
+}

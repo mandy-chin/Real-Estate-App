@@ -77,7 +77,9 @@ addButton.addEventListener("click", () => {
 
     // create property entry
     const propertyDetails = document.createElement("section");
-    propertyDetails.textContent = `Street Address: ${property.address}, Property Type: ${property.property}, City: ${property.city}, State: ${property.state}`;
+    propertyDetails.setAttribute("style", "white-space: pre;")
+    propertyDetails.textContent = `Street Address: ${property.address}\r\nProperty Type: ${property.property}\r\nCity: ${property.city}\r\nState: ${property.state}`;
+    console.log(propertyDetails.textContent)
     // append property details and delete button to section
     propertyElement.append(propertyDetails, delButton, commentButton);
     // return section
